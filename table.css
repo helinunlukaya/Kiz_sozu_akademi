@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+       body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	color: #FFF;
+        }
+#form1 table {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: normal;
+	font-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+	width: 500px;
+	
+
+.transparent-style{
+	background-color: #FF99CC;
+	opacity: .8;
+	color: #FFF;
+	color: #FFF;
+} 
+	       button {
+	border: 1px solid #333;
+	padding: 15px 0;
+	cursor: pointer;
+	background-color: #FF99CC;
+	text-decoration: none;
+        }
+        button:hover {
+            background-color: #222;
+            color:#fff;
+            transition: all 500ms;
+        }
+        
+      
+#form1 table tr td {
+	font-family: "Times New Roman", Times, serif;
+	color: #FFF;
+	font-size: 16px;
+}

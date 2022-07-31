@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>yeni kayıt</title>
+<link href="table.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#apDiv1 {
+	position: absolute;
+	left: 246px;
+	top: 435px;
+	width: 58px;
+	height: 21px;
+	z-index: 1;
+	text-decoration: none;
+}
+
+.style3 {
+	font-size: 18px
+}
+body {
+	background-image: url(biz.png);
+	background-repeat: repeat;
+	margin-left: 40px;
+	margin-top: 42px;
+}
+.kayitbuton{text-decoration: none;
+    border: 1px solid #000;
+    background: #000;
+    padding: 15px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 15px;cursor:pointer;}
+.style5 {font-size: 18px;color:#000}
+h2{
+	font-size: 18px;
+	color: #FFF
+}
+label{color:#000}
+body,td,th {
+	color: #FFF;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Times New Roman", Times, serif;
+	color: #FFF;
+}
+</style>
+</head>
+<body text="#FFFFFF" link="#000000">
+<form id="form1" name="form1" method="post"action="anasayfa.html" >
+  <table width="487" border="0" align="center">
+    <tr>
+      <th width="208" scope="row"><div align="right" class="style3">
+        <h2>YENİ </h2>
+      </div></th>
+      <th width="269"><div align="left" class="style3">
+        <h2>KAYIT</h2>
+      </div></th>
+    </tr>
+    <tr >
+      <td height="35" class="style3"  scope="row"><div align="center" class="style3"><span class="style3"> Adınız</span></div></td>
+      <td class="style3"><label>
+        <input type="text" name="adi" id="adi" placeholder="Adınız" required/>
+      </label></td>
+    </tr>
+    <tr>
+      <td height="32" class="style3" scope="row"><div align="center" class="style3">Soyadınız</div></td>
+      <td class="style3"><label>
+        <input type="text" name="soyadi" id="soyadi"placeholder="Soyadınız" required/>
+      </label></td>
+    </tr>
+    <tr>
+      <td height="35" class="style3" scope="row"><div align="center" class="style3">Cinsiyetiniz</div></td>
+      <td class="style3"><label>
+        <input type="radio" name="radio" id="kadin" value="kadin" />
+      Kadın 
+      <input type="radio" name="radio" id="erkek" value="erkek" />
+      Erkek</label></td>
+    </tr>
+    <tr>
+      <td height="35" class="style3" scope="row"><div align="center" class="style3">Medeni Haliniz</div></td>
+      <td class="style3"><label>
+        <select name="medenihal" id="medenihal"required>
+          <option>Bekar</option>
+          <option>Evli</option>
+        </select>
+      </label></td>
+    </tr>
+    <tr>
+      <td height="33" class="style3" scope="row"><div align="center" class="style3">Eğitim Durumunuz</div></td>
+      <td class="style3"><label>
+        <select name="egitim" id="egitim"required>
+          <option>İlkokul</option>
+          <option>Ortaokul</option>
+          <option>Lise</option>
+          <option>Lisans</option>
+          <option>Yüksek Lisans</option>
+        </select>
+      </label></td>
+    </tr>
+    <tr>
+      <td height="33" class="style3" scope="row"><div align="center" class="style3">Mesleğiniz</div></td>
+      <td class="style3"><label>
+        <input type="text" name="meslek" id="meslek"placeholder="Mesleğiniz"required />
+      </label></td>
+    </tr>
+    <tr>
+      <td height="31" class="style3" scope="row"><div align="center" class="style3">Yaşınız</div></td>
+      <td class="style3"><label>
+        <select name="yas" id="yas"required>
+          <option>18-25</option>
+          <option>26-29</option>
+          <option>30-35</option>
+          <option>36-39</option>
+          <option>40-44</option>
+          <option>45-49</option>
+          <option>50 ve üzeri</option>
+        </select>
+      </label></td>
+    </tr>
+    <tr>
+      <td height="36" class="style3" scope="row"><div align="center" class="style3">Boyunuz</div></td>
+      <td class="style3"><label>
+        <input type="text" name="boy" id="boy"placeholder="Boy"required />
+      </label></td>
+    </tr>
+    <tr>
+      <td height="37" class="style3" scope="row"><div align="center" class="style3">Kilonuz</div></td>
+      <td class="style3"><label>
+        <input type="text" name="kilo" id="kilo"placeholder="Kilo"required />
+      </label></td>
+    </tr>
+    <tr>
+      <td height="34" class="style3" scope="row"><div align="center" class="style3">Sifreniz</div></td>
+      <td class="style3"><label>
+        <input type="password" name="sifre" id="sifre"placeholder="Şifre"required />
+      </label></td>
+    </tr>
+    <tr>
+      <td height="33" class="style3" scope="row"><div align="center" class="style3">Tekrar Sifre </div></td>
+      <td class="style3"><label>
+        <input type="password" name="againpass" id="againpass"placeholder="Şifre Tekrar" required/>
+      </label>    <tr>
+      <th scope="row"> </th>
+      <td><label>
+        
+        <div align="left">
+<button class="kayitbuton" type="submit">Kayıt Ol</button>
+      </label></td>
+    </tr></td>
+    </tr>
+
+  </table>
+</form>
+
+</body>
+</html>
